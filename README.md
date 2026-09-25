@@ -1,6 +1,6 @@
 # COMP-584 Project 1 — Email Campaign
 
-Repository: `comp-584-project1-av`
+Repository: `comp584-project1-av`
 
 This project extends the COMP-584 HW3 email campaign rather than replacing it.
 
@@ -8,7 +8,7 @@ This project extends the COMP-584 HW3 email campaign rather than replacing it.
 
 After publishing this repository with GitHub Pages, verify/update the hosted URL:
 
-**GitHub Pages:** https://avari77343.github.io/comp-584-project1-av
+**GitHub Pages:** https://avari77343.github.io/comp584-project1-av
 
 ## Project 1 Requirements
 
