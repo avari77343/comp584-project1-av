@@ -1,0 +1,5 @@
+COMP-584 Project 1 extends the supplied comp584-hw3-av-main project.
+HW3 assets and the original email structure were retained.
+Project 1 adds the required two-column, three-column, responsive stacking, interactive links/buttons,
+keyframe animation, and radio/label/div checked interaction.
+Live Gmail/Outlook/Apple Mail testing must be performed with actual accounts; the included report does not fabricate those results.

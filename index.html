@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michael Scott Presents — Project 1 Email Campaign</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    table { border-collapse:collapse !important; }
+    img { -ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    body { height:100% !important; margin:0 !important; padding:0 !important; width:100% !important; }
+    a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+    u + #body a { color:inherit; text-decoration:none; }
+    #MessageViewBody a { color:inherit; text-decoration:none; }
+
+    .column-cell { vertical-align:top; }
+    .interactive-radio { position:absolute; left:-9999px; }
+    .interactive-label { cursor:pointer; }
+    .interactive-panel { display:none; }
+    #topic1:checked ~ .topic-panel-1,
+    #topic2:checked ~ .topic-panel-2,
+    #topic3:checked ~ .topic-panel-3 { display:block !important; }
+
+    @keyframes michael-wave {
+      from { transform:translateY(-6px) rotate(-1deg); }
+      to { transform:translateY(6px) rotate(1deg); }
+    }
+    .animated-note { animation:michael-wave 2.4s ease-in-out infinite alternate; }
+
+    .button-link:hover { background-color:#4d267b !important; }
+    .text-link:hover { color:#4d267b !important; }
+
+    @media screen and (max-width: 600px) {
+      .email-container { width:100% !important; max-width:100% !important; }
+      .mobile-padding { padding-left:20px !important; padding-right:20px !important; }
+      .headline { font-size:27px !important; line-height:34px !important; }
+      .hero { width:100% !important; max-width:100% !important; height:auto !important; }
+      .button-cell { padding-left:20px !important; padding-right:20px !important; }
+      .stack-column,
+      .stack-column > table { display:block !important; width:100% !important; max-width:100% !important; }
+      .stack-column { padding-left:20px !important; padding-right:20px !important; }
+      .multi-title { font-size:20px !important; line-height:27px !important; }
+      .multi-copy { font-size:14px !important; line-height:21px !important; }
+      .three-column-cell { padding-bottom:16px !important; }
+      .interactive-label { display:block !important; margin-bottom:8px !important; }
+      .interactive-panel { font-size:14px !important; line-height:21px !important; }
+    }
+  </style>
+</head>
+<body id="body" style="margin:0 !important; padding:0 !important; background-color:#e9e2d7; width:100% !important;">
+  <!-- Outer fluid table: COMP-584 table-based email pattern -->
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%; background-color:#e9e2d7;">
+    <tr>
+      <td align="center" style="padding:20px 10px 40px 10px;">
+
+        <!-- Fixed 600px inner email container -->
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" class="email-container" style="width:600px; max-width:600px; margin:0 auto; background-color:#ffffff;">
+
+          <tr>
+            <td align="center" style="padding:25px 20px 20px 20px; background-color:#111111;">
+              <img src="images/logo.png" width="110" alt="Dunder Mifflin Paper Company logo" style="display:block; width:110px; max-width:110px; height:auto;" />
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" class="mobile-padding" style="padding:25px 30px 20px 30px;">
+              <h1 class="headline" style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:32px; line-height:40px; font-weight:700; color:#111111;">Michael Scott Presents!!</h1>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center" style="padding:0 20px 20px 20px;">
+              <img src="images/hero.png" width="560" alt="Michael Scott standing in front of a presentation backdrop" class="hero" style="display:block; width:560px; max-width:100%; min-width:100px; height:auto;" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="mobile-padding" bgcolor="#f4eee4" background="images/background.png" style="padding:25px 40px 15px 40px; background-color:#f4eee4; background-image:url('images/background.png'); background-repeat:no-repeat; background-position:center top; background-size:cover; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:24px; color:#111111;">
+              <p style="margin:0 0 16px 0;">Jan made me breakfast this morning. Well, she bought the milk... It's soy! Get in there right now or I am going to lose it! I would not miss it for the world, but if something else came up, I would definitely not go, ah, that baby is just discovering the whole wide world right now.</p>
+              <p style="margin:0 0 16px 0;">To keep secrets from my computer, took me all night, that is a very, very funny story, why is my office black? That's crazy, mmmm... THAT'S WHAT SHE SAID! I am aware of the effect I have on women.</p>
+              <p style="margin:0 0 22px 0;">March fourth! Michael Scott came up with golden ticket idea to give customers ten percent off for one year, oh really. Mm-hmm, how would you do that? This is a good day. You guys accomplished something big.</p>
+            </td>
+          </tr>
+
+          <!-- Project 1: two-column component -->
+          <tr>
+            <td style="padding:25px 20px 10px 20px; font-family:Arial, Helvetica, sans-serif;">
+              <h2 style="margin:0 0 6px 0; font-size:23px; line-height:30px; color:#111111;">The conference room agenda</h2>
+              <p style="margin:0; font-size:14px; line-height:21px; color:#555555;">Two important parts of today's presentation.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 0 10px 0;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td class="stack-column column-cell" width="50%" style="width:50%; padding:10px 10px 15px 20px; font-family:Arial, Helvetica, sans-serif; background-color:#f7f2fb;">
+                    <h3 class="multi-title" style="margin:0 0 7px 0; font-size:20px; line-height:27px; color:#4d267b;">Morning briefing</h3>
+                    <p class="multi-copy" style="margin:0; font-size:15px; line-height:23px; color:#222222;">Review the big idea, the golden ticket plan, and the extremely important details Michael definitely prepared.</p>
+                  </td>
+                  <td class="stack-column column-cell" width="50%" style="width:50%; padding:10px 20px 15px 10px; font-family:Arial, Helvetica, sans-serif; background-color:#eee8f5;">
+                    <h3 class="multi-title" style="margin:0 0 7px 0; font-size:20px; line-height:27px; color:#4d267b;">Afternoon follow-up</h3>
+                    <p class="multi-copy" style="margin:0; font-size:15px; line-height:23px; color:#222222;">Check the action items, celebrate the team, and make sure everyone understands the plan before leaving the office.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Project 1: three-column component -->
+          <tr>
+            <td style="padding:20px 20px 10px 20px; font-family:Arial, Helvetica, sans-serif;">
+              <h2 style="margin:0 0 6px 0; font-size:23px; line-height:30px; color:#111111;">Three things Michael wants you to know</h2>
+              <p style="margin:0; font-size:14px; line-height:21px; color:#555555;">A three-column campaign feature that stacks on mobile.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 0 8px 0;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td class="stack-column three-column-cell column-cell" width="33.33%" style="width:33.33%; padding:10px 7px 12px 20px; font-family:Arial, Helvetica, sans-serif; background-color:#fafafa;">
+                    <h3 class="multi-title" style="margin:0 0 6px 0; font-size:18px; line-height:25px; color:#111111;">Be bold</h3>
+                    <p class="multi-copy" style="margin:0; font-size:14px; line-height:21px; color:#333333;">Bring a big idea to the table.</p>
+                  </td>
+                  <td class="stack-column three-column-cell column-cell" width="33.33%" style="width:33.33%; padding:10px 7px 12px 7px; font-family:Arial, Helvetica, sans-serif; background-color:#f3f0f6;">
+                    <h3 class="multi-title" style="margin:0 0 6px 0; font-size:18px; line-height:25px; color:#111111;">Be memorable</h3>
+                    <p class="multi-copy" style="margin:0; font-size:14px; line-height:21px; color:#333333;">Make the presentation impossible to forget.</p>
+                  </td>
+                  <td class="stack-column three-column-cell column-cell" width="33.33%" style="width:33.33%; padding:10px 20px 12px 7px; font-family:Arial, Helvetica, sans-serif; background-color:#fafafa;">
+                    <h3 class="multi-title" style="margin:0 0 6px 0; font-size:18px; line-height:25px; color:#111111;">Be prepared</h3>
+                    <p class="multi-copy" style="margin:0; font-size:14px; line-height:21px; color:#333333;">Bring your notes. Michael will bring his.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Keyframe animation: transform properties only -->
+          <tr>
+            <td align="center" style="padding:10px 20px 25px 20px; font-family:Arial, Helvetica, sans-serif;">
+              <div class="animated-note" style="display:inline-block; padding:9px 14px; border:2px solid #6a36a8; background-color:#f7f2fb; color:#4d267b; font-size:14px; line-height:20px; font-weight:700;">
+                Important presentation energy detected!
+              </div>
+            </td>
+          </tr>
+
+          <!-- Project 1: interactive button -->
+          <tr id="button-area">
+            <td align="center" class="button-cell" style="padding:10px 30px 35px 30px; background-color:#f4eee4;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="center" bgcolor="#6a36a8" style="border-radius:5px; background-color:#6a36a8;">
+                    <a class="button-link" href="#interactive-menu" style="display:inline-block; border:1px solid #4d267b; padding:13px 24px; border-radius:5px; font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:20px; font-weight:700; color:#ffffff; text-decoration:none;">Open the presentation menu</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Project 1: checked-radio interaction -->
+          <tr id="interactive-menu">
+            <td style="padding:25px 25px 10px 25px; font-family:Arial, Helvetica, sans-serif; background-color:#111111; color:#ffffff;">
+              <h2 style="margin:0 0 6px 0; font-size:23px; line-height:30px; color:#ffffff;">Choose a topic</h2>
+              <p style="margin:0 0 15px 0; font-size:14px; line-height:21px; color:#dddddd;">Select a label to reveal its presentation note.</p>
+
+              <input class="interactive-radio" type="radio" name="topics" id="topic1" checked="checked" />
+              <input class="interactive-radio" type="radio" name="topics" id="topic2" />
+              <input class="interactive-radio" type="radio" name="topics" id="topic3" />
+
+              <label class="interactive-label" for="topic1" style="display:inline-block; padding:9px 12px; margin-right:5px; background-color:#6a36a8; color:#ffffff; font-size:13px; line-height:18px; font-weight:700; border-radius:3px;">The plan</label>
+              <label class="interactive-label" for="topic2" style="display:inline-block; padding:9px 12px; margin-right:5px; background-color:#6a36a8; color:#ffffff; font-size:13px; line-height:18px; font-weight:700; border-radius:3px;">The team</label>
+              <label class="interactive-label" for="topic3" style="display:inline-block; padding:9px 12px; background-color:#6a36a8; color:#ffffff; font-size:13px; line-height:18px; font-weight:700; border-radius:3px;">The finale</label>
+
+              <div class="topic-panel-1 interactive-panel" style="display:block; margin-top:15px; padding:15px; background-color:#ffffff; color:#222222;">
+                <strong>The plan:</strong> Michael's plan is simple: make the presentation exciting, memorable, and completely impossible to ignore.
+              </div>
+              <div class="topic-panel-2 interactive-panel" style="margin-top:15px; padding:15px; background-color:#ffffff; color:#222222;">
+                <strong>The team:</strong> Everyone has a role. Dwight handles security, Jim handles practical jokes, and Michael handles the microphone.
+              </div>
+              <div class="topic-panel-3 interactive-panel" style="margin-top:15px; padding:15px; background-color:#ffffff; color:#222222;">
+                <strong>The finale:</strong> End with confidence, thank the audience, and remember the most important rule: that's what she said.
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="mobile-padding" style="padding:25px 40px 10px 40px; font-family:Arial, Helvetica, sans-serif; color:#111111;">
+              <h2 style="margin:0 0 10px 0; font-size:22px; line-height:30px;">Presentation details</h2>
+              <p style="margin:0 0 12px 0; font-size:15px; line-height:24px;">The campaign now combines the original HW3 email foundation with responsive multi-column content and progressive interactive features.</p>
+              <p style="margin:0; font-size:14px; line-height:22px;">Read the <a class="text-link" href="#interactive-menu" style="color:#0000ee; text-decoration:underline;">interactive presentation menu</a> or return to the <a class="text-link" href="#button-area" style="color:#0000ee; text-decoration:underline;">campaign button</a>.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="mobile-padding" style="padding:15px 40px 0 40px; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#666666;">
+              <p style="margin:0 0 16px 0;">Feel free to <a class="text-link" href="#unsubscribe" style="color:#0000ee; text-decoration:underline;">unsubscribe</a>.</p>
+            </td>
+          </tr>
+          <tr>
+            <td id="unsubscribe" class="mobile-padding" style="padding:0 40px 30px 40px; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:22px; color:#666666;">
+              <p style="margin:0;">1725 Slough Avenue in Scranton, PA 18503</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
